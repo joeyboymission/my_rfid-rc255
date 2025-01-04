@@ -1,4 +1,4 @@
-# Ignore file directories
-READNUID/
+# Test and sample directories
+ReadNUID/
 simple_rfid/
-testSample/
+testSamples/
