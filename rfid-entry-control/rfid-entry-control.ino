@@ -9,44 +9,6 @@
 * [Security Access using MFRC522 RFID Reader with Arduino](https://randomnerdtutorials.com/security-access-using-mfrc522-rfid-reader-with-arduino/)
 * [Arduino Servo Motor](https://github.com/Circuit-Digest/servo-tutorial.git)
 * 
-* Required Materials:
-* 1. Arduino (Uno, Mega, Nano, Leonardo/Micro Pro Mirco)
-* 2. RFID-RC2522
-* 3. Micro Servo 9G NG90
-* 4. I2C LCD Crystal Display
-* 5. Jumper Wires (Male to Male & Female to Male any length)
-* 6. Breadboard
-* 7. Buzzer
-*
-* Libraries:
-* [MFRC522](https://github.com/miguelbalboa/rfid.git)
-* [Servo](https://www.arduino.cc/en/reference/servo)
-* [Wire](https://www.arduino.cc/en/reference/wire)
-* [LiquidCrystal_I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library.git)
-* 
-* Pin Configuration:
-* -----------------------------------------------------------------------------------------
-*             MFRC522      Arduino       Arduino   Arduino    Arduino          Arduino
-*             Reader/PCD   Uno/101       Mega      Nano v3    Leonardo/Micro   Pro Micro
-* Signal      Pin          Pin           Pin       Pin        Pin              Pin
-* -----------------------------------------------------------------------------------------
-* RFID-RC522:
-* RST/Reset   RST          9             5         D9         RESET/ICSP-5     RST
-* SPI SS      SDA(SS)      10            53        D10        10               10
-* SPI MOSI    MOSI         11/ICSP-4     51        D11        ICSP-4          16
-* SPI MISO    MISO         12/ICSP-1     50        D12        ICSP-1          14
-* SPI SCK     SCK          13/ICSP-3     52        D13        ICSP-3          15
-*
-* BUZZER:
-* Signal      Pin          7             7         D7         7                7
-*
-* SERVO MOTOR:
-* Signal      Pin          3             3         D3         3                3
-*
-* I2C LCD:
-* SDA         A4           A4            20        A4         2                2
-* SCL         A5           A5            21        A5         3                3
-* -----------------------------------------------------------------------------------------
 */
 
 // Include Libraries

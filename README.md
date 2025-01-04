@@ -10,6 +10,11 @@ This repository contains various Arduino-based RFID projects using the RC255 mod
 - Access control systems
 - Data logging capabilities
 - Arduino UNO compatibility
+## Projects
+These are the projects that are ongoing:
+1. [RFID Entry Controller](./rfid-entry-control/README.md)
+2. [Read NUID](./ReadNUID)
+3. [Simple RFID](./simple_rfid)
 
 ## Requirements
 - Arduino UNO board
